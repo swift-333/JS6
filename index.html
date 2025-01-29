@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина</title>
+</head>
+<body>
+
+<div id="container">
+    <div>
+        <img src="карандаш.jpg" width="200" alt="карандаш">
+        Цена: 100 руб.
+        <button class="buy-btn" data-price="100" data-name="Карандаш">Купить</button>
+    </div>
+    <div>
+        <img src="мышка.jpg" width="200" alt="мышка">
+        Цена: 500 руб.
+        <button class="buy-btn" data-price="500" data-name="Мышка">Купить</button>
+    </div>
+    <div>
+        <img src="клавиатура.jpg" width="200" alt="клавиатура">
+        Цена: 1000 руб.
+        <button class="buy-btn" data-price="1000" data-name="Клавиатура">Купить</button>
+    </div>
+</div>
+<div id="basket">
+    Количество товаров: <span id="basket-count">0</span>
+    <h1></h1>
+    Итого руб.: <span id="basket-price">0</span>
+    <h2></h2>
+</div>
+<div>
+    <button class = 'clear-btn'>Очистить все</button>
+</div>
+<script src="1.js"></script>
+</body>
+</html>
